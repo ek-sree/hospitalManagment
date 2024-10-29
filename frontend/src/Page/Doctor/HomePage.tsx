@@ -1,5 +1,6 @@
-import Landing from "../../../components/doctor/Home/Langing"
-import SideNav from "../../../components/doctor/Home/Sidebar"
+import Landing from "../../components/doctor/Home/Langing"
+import SideNav from "../../components/doctor/Home/Sidebar"
+
 
 const HomePage = () => {
   return (
