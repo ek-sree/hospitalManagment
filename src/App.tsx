@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import UserRouter from './Router/UserRouter';
+import DoctorRouter from './Router/DoctorRouter';
 
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
   return (
     <Routes>
       <Route path='/*' element={<UserRouter/>}/>
-      {/* <Route path='/seller/*' element={<SellerRouter/>}/>
-      <Route path='/admin/*' element={<AdminRouter/>}/> */}
+      <Route path='/doctor/*' element={<DoctorRouter/>}/>
+     
     </Routes>
   )
 }

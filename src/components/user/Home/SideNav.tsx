@@ -12,7 +12,6 @@ const SideNav = () => {
     navigate(path);
   };
 
-  // Check if the current path matches the given path
   const isActive = (path: string) => location.pathname === path;
 
   return (
