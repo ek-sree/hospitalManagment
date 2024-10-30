@@ -14,11 +14,11 @@
 ![WhatsApp Image 2024-10-30 at 11 12 02_4272c60b](https://github.com/user-attachments/assets/cc227848-9e3c-4895-b62a-266cede0e5ad)
 
 
-### user booking modal
+### User Booking Modal
 ![WhatsApp Image 2024-10-30 at 11 12 03_0fdbbc69](https://github.com/user-attachments/assets/4b39c193-a41e-4991-949c-cf04f2e023fc)
 
 
-### Doctor upcomming Appoiment list
+### Doctor upcoming Appointment list
 ![WhatsApp Image 2024-10-30 at 11 12 01_d741464b](https://github.com/user-attachments/assets/2d090e22-ad81-4365-870e-b3f43cbdde90)
 
 
