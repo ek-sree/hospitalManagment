@@ -79,7 +79,7 @@ const Signup = () => {
 });
 
   return (
-    <div className="bg-white min-h-screen w-full flex flex-col md:flex-row">
+    <div className="bg-slate-800 min-h-screen w-full flex flex-col md:flex-row">
        <Toaster position="top-center" expand={false} richColors />
       <div className="md:flex-1 flex items-center justify-center p-4 md:p-0">
         <img

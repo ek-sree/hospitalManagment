@@ -21,7 +21,7 @@ const SideNav = () => {
       </div>
 
       <button
-        onClick={() => handleButtonClick('/home')}
+        onClick={() => handleButtonClick('/doctor/home')}
         className={`text-slate-500 hover:text-white mb-6 ${isActive('/home') ? 'bg-slate-600 text-slate-300' : ''} p-2 rounded-full`}
       >
         <HomeIcon />

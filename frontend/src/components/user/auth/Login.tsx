@@ -52,11 +52,11 @@ const Login = () => {
   });
 
   return (
-    <div className="bg-white min-h-screen w-full flex flex-col md:flex-row">
+    <div className="bg-slate-800 min-h-screen w-full flex flex-col md:flex-row">
       <Toaster position="top-center" expand={false} richColors />
       <div className="md:flex-1 flex items-center justify-center p-4">
-        <div className="shadow-md shadow-slate-100 border border-white flex flex-col p-4 w-full max-w-[450px] rounded-md bg-lightGreen">
-          <h1 className="text-slate-800 text-center mb-4 text-xl">
+        <div className="shadow-md shadow-slate-100 border border-white flex flex-col p-4 w-full max-w-[450px] rounded-md bg-zinc-900">
+          <h1 className="text-white text-center mb-4 text-xl">
             Welcome, Login {isDoctor === 'doctor' ? 'Doctor' : 'User'}
           </h1>
 
@@ -66,7 +66,7 @@ const Login = () => {
               className={`px-4 py-2 rounded-l-md ${
                 isDoctor === 'user' 
                   ? 'bg-gradient-to-r from-violet-500 to-fuchsia-500 text-black' 
-                  : 'bg-slate-100 text-black'
+                  : 'bg-slate-800 text-white'
               }`}
             >
               User
@@ -76,20 +76,20 @@ const Login = () => {
               className={`px-4 py-2 rounded-r-md ${
                 isDoctor === 'doctor' 
                   ? 'bg-gradient-to-r from-violet-500 to-fuchsia-500 text-black' 
-                  : 'bg-slate-100 text-black'
+                  : 'bg-slate-800 text-white'
               }`}
             >
               Doctor
             </button>
           </div>
 
-          <form onSubmit={formik.handleSubmit} className="text-slate-800 flex flex-col">
+          <form onSubmit={formik.handleSubmit} className="text-white flex flex-col">
             <label htmlFor="email" className="mb-2">Email</label>
             <input
               type="text"
               name="email"
               id="email"
-              className="mb-4 p-2 rounded-xl bg-slate-200 text-white"
+              className="mb-4 p-2 rounded-xl bg-slate-700 text-white"
               placeholder="Enter your email"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
@@ -104,7 +104,7 @@ const Login = () => {
               type="password"
               name="password"
               id="password"
-              className="mb-4 p-2 rounded-xl bg-slate-200 text-white"
+              className="mb-4 p-2 rounded-xl bg-slate-700 text-white"
               placeholder="Enter Password"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
@@ -127,7 +127,7 @@ const Login = () => {
           {isDoctor === 'user' && (
             <Link to='/signup'>
               <div className="text-center mt-4 cursor-pointer">
-                <p className="text-black">
+                <p className="text-white">
                   Click here to <span className="text-blue-500">Sign up</span>
                 </p>
               </div>
